@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "856974099428",
+    "project_id": "counter-app-with-firebase",
+    "storage_bucket": "counter-app-with-firebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:856974099428:android:ae6024636cefeb6bce7df1",
+        "android_client_info": {
+          "package_name": "com.example.counter_app_firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "856974099428-d8lfdgba3lv6ua6gioigtlt7cfnnjd68.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAd_bRnvGSGxrMvAz1cCEML6RqvXn30H60"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "856974099428-d8lfdgba3lv6ua6gioigtlt7cfnnjd68.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
