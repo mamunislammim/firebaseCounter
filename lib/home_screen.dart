@@ -15,7 +15,8 @@ class _MyHomePageState extends State<MyHomePage> {
 
   void _incrementCounter()async{
     DatabaseReference ref = FirebaseDatabase.instance.ref("Counter");
-    await ref.set(_counter);
+   await ref.push().set(_counter);
+    print("BD : $_counter");
      setState(() {
       _counter++;
     });

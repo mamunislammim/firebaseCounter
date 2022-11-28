@@ -1,4 +1,4 @@
-import 'package:counter_app_firebase/sign_up.dart';
+import 'package:counter_app_firebase/home_screen.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
@@ -44,6 +44,14 @@ class _SignUpState extends State<SignUp> {
                     email: _email.text,
                     password: _password.text
                 );
+
+                if(FirebaseAuth.instance.currentUser!.uid.isNotEmpty){
+                  toast("Bollo");
+                  const MyHomePage(title: 'Hello',).launch(context);
+                }
+                else{
+                  toast("value");
+                }
 
               } on FirebaseAuthException catch (e) {
                 if (e.code == 'user-not-found') {

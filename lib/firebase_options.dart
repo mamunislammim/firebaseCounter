@@ -45,9 +45,9 @@ class DefaultFirebaseOptions {
   static const FirebaseOptions android = FirebaseOptions(
     apiKey: 'AIzaSyAd_bRnvGSGxrMvAz1cCEML6RqvXn30H60',
     appId: '1:856974099428:android:ae6024636cefeb6bce7df1',
-    messagingSenderId: '477867481850',
-    projectId: 'fir-counter-b53af',
-    storageBucket: 'fir-counter-b53af.appspot.com',
+    messagingSenderId: '856974099428',
+    projectId: 'counter-app-with-firebase',
+    storageBucket: 'counter-app-with-firebase.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(

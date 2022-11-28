@@ -3,6 +3,7 @@ import 'package:counter_app_firebase/sign_up.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'firebase_options.dart';
+import 'home_screen.dart';
 
 void main()async{
   WidgetsFlutterBinding.ensureInitialized();
@@ -23,7 +24,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       // home: const MyHomePage(title: 'Flutter Demo Home Page'),
-      home:  const SignUp(),
+        home:  const SignUp(),
     );
   }
 }

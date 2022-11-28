@@ -1,6 +1,7 @@
 {
   "project_info": {
     "project_number": "856974099428",
+    "firebase_url": "https://counter-app-with-firebase-default-rtdb.firebaseio.com",
     "project_id": "counter-app-with-firebase",
     "storage_bucket": "counter-app-with-firebase.appspot.com"
   },
